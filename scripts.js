@@ -4,7 +4,7 @@ const userName = ''
 // The question you have for the 8 ball
 let userQuestion = ''
 
-const message = userName ? console.log(`Hello ${userName}`) : console.log('Hello');
+const message = userName ? console.log(`Hello ${userName}`) : console.log('Username');
 console.log(`${userName} asked: ${userQuestion}`);
 
 const randomNumber = Math.floor(Math.random() * 8);
