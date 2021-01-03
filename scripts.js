@@ -1,8 +1,8 @@
 // Your name goes here
-const userName = 'Cory'
+const userName = 'Bridgette'
 
 // The question you have for the 8 ball
-let userQuestion = 'am I smart?'
+let userQuestion = 'Will Bitcoin hit 100,000?'
 
 const message = userName ? console.log(`Hello ${userName}`) : console.log('Username');
 console.log(`${userName} asked: ${userQuestion}`);
@@ -34,7 +34,7 @@ switch(randomNumber) {
      eightBall = 'Outlook not so good'
     break; 
   case 7:
-     eightBall = 'Error 404'
+     eightBall = 'Error 404 (not really)'
     break; 
 }
 console.log(eightBall);  
