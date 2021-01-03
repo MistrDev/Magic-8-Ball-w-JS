@@ -1,8 +1,8 @@
 // Your name goes here
-const userName = 'Bridgette'
+const userName = ''
 
 // The question you have for the 8 ball
-let userQuestion = 'Will Bitcoin hit 100,000?'
+let userQuestion = ''
 
 const message = userName ? console.log(`Hello ${userName}`) : console.log('Username');
 console.log(`${userName} asked: ${userQuestion}`);
