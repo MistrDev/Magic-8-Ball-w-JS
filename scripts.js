@@ -34,7 +34,7 @@ switch(randomNumber) {
      eightBall = 'Outlook not so good'
     break; 
   case 7:
-     eightBall = 'Error 404'
+     eightBall = 'Error 404 Ask Again'
     break; 
 }
 console.log(`Magic 8 ball says: ${eightBall}`); 
