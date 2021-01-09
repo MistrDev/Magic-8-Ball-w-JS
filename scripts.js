@@ -4,7 +4,7 @@ const userName = ''
 // The question you have for the 8 ball
 let userQuestion = ''
 
-const message = userName ? console.log(`Hello ${userName}`) : console.log('Username');
+const message = userName ? console.log(`Hello ${userName}`) : console.log('You');
 console.log(`${userName} asked: ${userQuestion}`);
 
 const randomNumber = Math.floor(Math.random() * 8);
@@ -34,7 +34,7 @@ switch(randomNumber) {
      eightBall = 'Outlook not so good'
     break; 
   case 7:
-     eightBall = 'Error 404 (not really)'
+     eightBall = 'Error 404'
     break; 
 }
-console.log(eightBall);  
+console.log(`Magic 8 ball says: ${eightBall}`); 
