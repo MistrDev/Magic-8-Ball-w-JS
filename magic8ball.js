@@ -2,7 +2,7 @@
 const userName = ''
 
 // The question you have for the 8 ball
-let userQuestion = ''
+const userQuestion = ''
 
 const message = userName ? console.log(`Hello ${userName}`) : console.log('You');
 console.log(`${userName} asked: ${userQuestion}`);
