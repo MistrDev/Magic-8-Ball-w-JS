@@ -25,7 +25,7 @@ switch(randomNumber) {
      eightBall = 'Cannot predict now'
     break;
   case 4:
-     eightBall = 'Do not count on it chump'
+     eightBall = 'Do not count on it'
     break;
   case 5:
      eightBall = 'My source code says no'

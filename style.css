@@ -1,0 +1,15 @@
+p {
+ font-weight: Bold;
+ text-align: center;
+}
+
+h1 {
+    text-align: center
+}
+
+h3 {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    border: 3px dotted #b8f132   
+}
