@@ -1,8 +1,8 @@
 // Your name goes here
-const userName = ''
+const userName = 'Cory'
 
 // The question you have for the 8 ball
-const userQuestion = ''
+const userQuestion = 'Will I become a developer?'
 
 const message = userName ? console.log(`Hello ${userName}`) : console.log('You');
 console.log(`${userName} asked: ${userQuestion}`);
@@ -38,3 +38,7 @@ switch(randomNumber) {
     break; 
 }
 console.log(`Magic 8 ball says: ${eightBall}`); 
+
+
+
+
